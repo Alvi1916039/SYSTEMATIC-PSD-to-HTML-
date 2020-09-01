@@ -1,0 +1,89 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social-area {
+        padding-top: 14px;
+        max-width: 460px;
+    }
+    .inner-menu-area{
+        background: none;
+        min-height: auto;
+    }
+    .inner-menu-area::after{
+        display: none;
+    }
+    .mean-container .mean-nav {
+        width: 80%;
+        margin-top: 0px;
+    }
+    .inner-top-header-area{
+        padding: 20px 0;
+    }
+    #slider-area{
+        margin-top: 0;
+    }
+    .inner-hero-area h2 {
+        
+        font-size: 56px;
+    }
+    #copyright-area{
+        min-height: 50px;
+    }
+}
+
+/*===============Mobile Layout================*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini-menu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini-menu ul, .social-area ul{
+        text-align: center;
+    }
+    .search-area, .logo-area{
+        float: none;
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+    }
+    .social-area ul li{
+        margin: 0 5px;
+    }
+    .inner-hero-area h2{
+        font-size: 20px;
+        text-align: left;
+        
+    }
+    .inner-hero-area p{
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    #work-area, #footer-area{
+        padding: 20px 0;
+    }
+    .wrapper {
+        width: 98%;
+        
+    }
+    .inner-footer-area .child-footer {
+        
+        width: 96%;
+        
+    }
+    .child-footer p {
+        
+        margin-bottom: 10px;
+    }
+    #copyright-area{
+        min-height: 80px;
+    }
+    .left-copyright{
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .right-copyright{
+        width: 100%;
+        float: left;
+        margin-bottom: 2px;
+    }
+}
